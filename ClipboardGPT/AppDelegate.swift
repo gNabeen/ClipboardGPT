@@ -73,7 +73,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     private func handleRightClick(button: NSStatusBarButton) {
         print("right clicked")
         let menu = NSMenu()
-        menu.addItem(NSMenuItem(title: "Preferences", action: #selector(NSApplication.terminate(_:)), keyEquivalent: ","))
+//        menu.addItem(NSMenuItem(title: "Preferences", action: #selector(NSApplication.terminate(_:)), keyEquivalent: ","))
         menu.addItem(NSMenuItem(title: "Quit", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q"))
         statusBarItem.menu = menu
         statusBarItem.button?.performClick(nil)
