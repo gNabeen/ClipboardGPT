@@ -17,4 +17,3 @@ A mac app that sits in your menu bar and automates the clipboard content to chat
 
 Demo Video:
 
-[![Watch the video](https://img.youtube.com/vi/rPCamDECk-Y/0.jpg)](https://youtu.be/rPCamDECk-Y)
